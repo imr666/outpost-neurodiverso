@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Outpost Neurodiverso</title>
+  <meta name="description" content="Juego bilingüe (español/inglés) para niños de 7 a 12 años: cuida una base en la Luna frente a eventos solares reales de NASA DONKI. NASA Space Apps Challenge 2026.">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Los textos con data-t / data-t-html se rellenan desde TEXTOS (game.js) en el idioma elegido. -->
+<div class="app">
+
+  <!-- ===================== BARRA SUPERIOR ===================== -->
+  <header class="barra">
+    <div class="marca">
+      <h1><span aria-hidden="true">🌙</span> <span class="titulo-texto" data-t="tituloSin">Outpost Neurodiverso</span></h1>
+      <p class="lema" data-t="lema"></p>
+    </div>
+
+    <div class="barra-mision" id="barra-mision" hidden>
+      <div class="dia">
+        <strong id="texto-dia"></strong>
+        <div class="linea-dias" id="linea-dias"></div>
+      </div>
+      <ul class="metas" id="metas" aria-label="Metas / Goals"></ul>
+    </div>
+
+    <div class="barra-botones">
+      <button type="button" class="boton-barra" id="boton-album">🎴</button>
+      <button type="button" class="boton-barra" id="boton-como">❔</button>
+      <button type="button" class="boton-barra boton-icono" id="boton-sonido">🔇</button>
+      <button type="button" class="boton-barra boton-idioma" id="boton-idioma">🌐 English</button>
+    </div>
+  </header>
+
+  <div class="zona">
+
+    <!-- ===================== INICIO ===================== -->
+    <main id="pantalla-inicio" class="pantalla-inicio">
+      <section class="hero">
+        <div class="hero-texto">
+          <h2 data-t="inicioTitulo"></h2>
+          <p data-t="inicioTexto"></p>
+          <p class="hero-equipo" aria-hidden="true">👩‍🚀 👨‍🚀 🧑‍🚀 🌙 ☀️</p>
+        </div>
+        <!-- El Sol esta semana: datos en vivo de NASA DONKI -->
+        <div class="clima" id="clima" aria-live="polite"></div>
+      </section>
+
+      <div class="titulo-poderes">
+        <h2 id="titulo-poderes" data-t="elegirPoder"></h2>
+        <p class="nota" data-t="notaPoderes"></p>
+      </div>
+      <div class="lista-poderes" id="lista-poderes" role="group" aria-labelledby="titulo-poderes"></div>
+
+      <p class="plan-anterior" id="plan-anterior" hidden></p>
+      <button type="button" class="boton boton-grande boton-empezar" id="boton-empezar" disabled>…</button>
+    </main>
+
+    <!-- ===================== JUEGO ===================== -->
+    <main id="pantalla-juego" class="pantalla-juego" hidden>
+
+      <!-- La base: equipo y los 4 módulos que se tocan -->
+      <section class="escena" aria-label="Base lunar / Moon base">
+        <div class="equipo-fila">
+          <ul class="equipo" id="equipo"></ul>
+          <div class="mente">
+            <span class="mente-nombre" id="mente-nombre"></span>
+            <span class="pips" id="mente-pips"></span>
+            <span class="mente-texto" id="mente-texto"></span>
+            <span class="tooltip">
+              <button type="button" class="tooltip-boton" aria-describedby="tip-mente">?</button>
+              <span class="tooltip-texto tooltip-izquierda" role="tooltip" id="tip-mente"></span>
+            </span>
+          </div>
+        </div>
+        <p class="mensaje-equipo" id="mensaje-equipo" aria-live="polite"></p>
+        <div class="modulos" id="modulos"></div>
+      </section>
+
+      <!-- Pronóstico del Sol y consejo de Ana -->
+      <aside class="lateral">
+        <section class="pronostico">
+          <h2 data-t="pronostico"></h2>
+          <div id="pronostico-contenido"></div>
+        </section>
+        <section class="consejo" id="consejo" aria-live="polite"></section>
+      </aside>
+
+      <!-- Energía de hoy y botón para terminar el día -->
+      <section class="bandeja" id="bandeja">
+        <div class="bandeja-info">
+          <strong id="texto-energia"></strong>
+          <div class="orbes" id="orbes"></div>
+          <div class="bandeja-textos">
+            <span class="texto-quedan" id="texto-quedan" aria-live="polite"></span>
+            <span class="motivos" id="motivos"></span>
+            <span class="regla" id="regla-descanso"></span>
+          </div>
+        </div>
+        <button type="button" class="boton boton-grande boton-noche" id="boton-terminar"></button>
+      </section>
+    </main>
+
+    <!-- ===================== FINAL ===================== -->
+    <main id="pantalla-fin" class="pantalla-fin" hidden>
+      <div class="fin-cabecera">
+        <p class="fin-grandes" id="fin-grandes" aria-hidden="true"></p>
+        <h2 id="fin-titulo" tabindex="-1"></h2>
+        <p id="fin-sub"></p>
+        <p class="fin-despedida" id="fin-despedida"></p>
+        <div class="fin-botones">
+          <button type="button" class="boton boton-grande" id="boton-otra-vez"></button>
+          <button type="button" class="boton boton-secundario" id="boton-ver-album"></button>
+        </div>
+      </div>
+      <div class="fin-cuerpo">
+        <section class="fin-bloque">
+          <h3 id="fin-estrellas-titulo"></h3>
+          <ul class="metas metas-fin" id="fin-estrellas"></ul>
+          <p class="fin-resumen" id="fin-resumen"></p>
+          <p class="fin-pista" id="fin-pista"></p>
+          <h3 id="fin-pregunta"></h3>
+          <div class="opciones-plan" role="group" aria-labelledby="fin-pregunta">
+            <button type="button" class="opcion-plan" aria-pressed="false"></button>
+            <button type="button" class="opcion-plan" aria-pressed="false"></button>
+            <button type="button" class="opcion-plan" aria-pressed="false"></button>
+            <button type="button" class="opcion-plan" aria-pressed="false"></button>
+          </div>
+          <textarea id="respuesta-plan" rows="1" maxlength="200" aria-labelledby="fin-pregunta"></textarea>
+        </section>
+        <section class="fin-bloque fin-cartas" id="fin-cartas"></section>
+      </div>
+    </main>
+  </div>
+
+  <footer class="pie"><p data-t-html="pie"></p></footer>
+</div>
+
+<!-- ===================== VENTANAS ===================== -->
+<div class="capa" id="capa-noche" hidden role="dialog" aria-modal="true" aria-labelledby="noche-titulo">
+  <div class="ventana ventana-noche">
+    <h2 id="noche-titulo"></h2>
+    <div class="noche-cuerpo">
+      <ul class="noche-lista" id="noche-lista"></ul>
+      <div class="noche-carta" id="noche-carta"></div>
+    </div>
+    <button type="button" class="boton boton-grande" id="boton-siguiente"></button>
+  </div>
+</div>
+
+<div class="capa" id="capa-album" hidden role="dialog" aria-modal="true" aria-labelledby="album-titulo">
+  <div class="ventana ventana-ancha">
+    <h2 id="album-titulo"></h2>
+    <p id="album-texto"></p>
+    <div class="album-cartas" id="album-cartas"></div>
+    <button type="button" class="boton" id="boton-cerrar-album"></button>
+  </div>
+</div>
+
+<div class="capa" id="capa-como" hidden role="dialog" aria-modal="true" aria-labelledby="como-titulo">
+  <div class="ventana">
+    <h2 id="como-titulo"></h2>
+    <ol class="como-pasos" id="como-pasos"></ol>
+    <button type="button" class="boton boton-grande" id="boton-entendido"></button>
+  </div>
+</div>
+
+<script src="game.js"></script>
+</body>
+</html>
