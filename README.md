@@ -66,7 +66,7 @@ The design follows the three principles of Universal Design for Learning (CAST, 
 ## 5. Real data used
 
 **NASA DONKI (space weather).**
-- `data/donki-eventos.json`: 20 real events from January 2024 to November 2026 (13 X-class flares and 7 SEP events), verified on November 14, 2026. Each one has `id_donki` (its official ID), `verificar` (the query to check it) and descriptions in Spanish and English.
+- `data/donki-eventos.json`: 20 real events from January 2024 to November 2026 (13 X-class flares and 7 SEP events), verified on November 14, 2026. Each one has `id_donki` (its official ID), `pagina_donki` (its official, human-readable NASA page with a plot), `verificar` (the technical JSON query) and descriptions in Spanish and English. In the game, every card links to **🔎 See this event on NASA’s website**.
 - **Live:** when the game opens, it queries `https://ccmc.gsfc.nasa.gov/DONKI-API/get/` (FLR, SEP, CME). The service needs no key. The start screen shows "The Sun this week", and strong events from the last month join the mission as 🆕 cards. The date comes from the device the game runs on. Offline, the game uses the saved events.
 - **Intensity (game rule):** an SEP event with particles above 100 MeV needs shield level 4; the others need level 3.
 
@@ -109,7 +109,7 @@ Following Ana earns 3 stars with all four superpowers. Earning them without help
 1. Open the link. Check the **The Sun this week** card (live data) and switch language with 🌐.
 2. Choose **🔭 Forecaster** and follow the 4-step tutorial.
 3. Tap modules and watch them change right away. Use **💡 Use suggestion** once.
-4. End day 3: a **real card** appears, with its date, its class and a link to verify it in DONKI.
+4. End day 3: a **real card** appears, with its date, its class and a link to its official page on NASA’s website.
 5. Finish the mission, check your stars and open the **🎴 album**.
 
 ## 9. Run and publish

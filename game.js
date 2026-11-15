@@ -42,6 +42,7 @@ const EVENTOS_RESPALDO = [
     "descripcion": "Tormenta de partículas que siguió a la fulguración X3.3 de la región 13575.",
     "descripcion_en": "Particle storm that followed the X3.3 flare from region 13575.",
     "id_donki": "2024-02-09T15:09:00-SEP-001",
+    "pagina_donki": "https://ccmc.gsfc.nasa.gov/DONKI/view/SEP/29076/-1",
     "verificar": "https://ccmc.gsfc.nasa.gov/DONKI-API/get/SEP?startDate=2024-02-08&endDate=2024-02-10"
   },
   {
@@ -53,7 +54,8 @@ const EVENTOS_RESPALDO = [
     "descripcion": "Fulguración clase X6.3 de la región activa 13590.",
     "descripcion_en": "Class X6.3 flare from active region 13590.",
     "id_donki": "2024-02-22T22:08:00-FLR-001",
-    "verificar": "https://ccmc.gsfc.nasa.gov/DONKI-API/get/FLR?startDate=2024-02-21&endDate=2024-02-23"
+    "pagina_donki": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/29349/-1",
+    "verificar": "https://ccmc.gsfc.nasa.gov/DONKI-API/get/FLR?startDate=2024-02-21&endDate=2024-02-23&class=X"
   },
   {
     "fecha": "2024-03-23",
@@ -64,7 +66,8 @@ const EVENTOS_RESPALDO = [
     "descripcion": "Fulguración clase X1.1. Pocas horas después llegó una tormenta de partículas.",
     "descripcion_en": "Class X1.1 flare. A few hours later a particle storm arrived.",
     "id_donki": "2024-03-23T00:58:00-FLR-001",
-    "verificar": "https://ccmc.gsfc.nasa.gov/DONKI-API/get/FLR?startDate=2024-03-22&endDate=2024-03-24"
+    "pagina_donki": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/29708/-1",
+    "verificar": "https://ccmc.gsfc.nasa.gov/DONKI-API/get/FLR?startDate=2024-03-22&endDate=2024-03-24&class=X"
   },
   {
     "fecha": "2024-03-23",
@@ -75,6 +78,7 @@ const EVENTOS_RESPALDO = [
     "descripcion": "Tormenta de partículas que siguió a la fulguración X1.1 de la región 13614.",
     "descripcion_en": "Particle storm that followed the X1.1 flare from region 13614.",
     "id_donki": "2024-03-23T05:57:00-SEP-001",
+    "pagina_donki": "https://ccmc.gsfc.nasa.gov/DONKI/view/SEP/29721/-1",
     "verificar": "https://ccmc.gsfc.nasa.gov/DONKI-API/get/SEP?startDate=2024-03-22&endDate=2024-03-24"
   },
   {
@@ -86,7 +90,8 @@ const EVENTOS_RESPALDO = [
     "descripcion": "Parte de las tormentas solares de mayo de 2024, que causaron auroras vistas en muchos países.",
     "descripcion_en": "Part of the May 2024 solar storms that caused auroras seen in many countries.",
     "id_donki": "2024-05-11T01:10:00-FLR-001",
-    "verificar": "https://ccmc.gsfc.nasa.gov/DONKI-API/get/FLR?startDate=2024-05-10&endDate=2024-05-12"
+    "pagina_donki": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30711/-1",
+    "verificar": "https://ccmc.gsfc.nasa.gov/DONKI-API/get/FLR?startDate=2024-05-10&endDate=2024-05-12&class=X"
   },
   {
     "fecha": "2024-05-11",
@@ -97,6 +102,7 @@ const EVENTOS_RESPALDO = [
     "descripcion": "Tormenta de partículas que siguió a la fulguración X5.8 de la región 13664. Algunas partículas fueron muy energéticas (más de 100 MeV).",
     "descripcion_en": "Particle storm that followed the X5.8 flare from region 13664. Some particles were very energetic (over 100 MeV).",
     "id_donki": "2024-05-11T02:10:00-SEP-001",
+    "pagina_donki": "https://ccmc.gsfc.nasa.gov/DONKI/view/SEP/30714/-1",
     "verificar": "https://ccmc.gsfc.nasa.gov/DONKI-API/get/SEP?startDate=2024-05-10&endDate=2024-05-12"
   },
   {
@@ -108,7 +114,8 @@ const EVENTOS_RESPALDO = [
     "descripcion": "La segunda fulguración más fuerte registrada en DONKI entre 2024 y 2026.",
     "descripcion_en": "The second strongest flare recorded in DONKI in 2024-2026.",
     "id_donki": "2024-05-14T16:46:00-FLR-001",
-    "verificar": "https://ccmc.gsfc.nasa.gov/DONKI-API/get/FLR?startDate=2024-05-13&endDate=2024-05-15"
+    "pagina_donki": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/30849/-1",
+    "verificar": "https://ccmc.gsfc.nasa.gov/DONKI-API/get/FLR?startDate=2024-05-13&endDate=2024-05-15&class=X"
   },
   {
     "fecha": "2024-09-14",
@@ -119,7 +126,8 @@ const EVENTOS_RESPALDO = [
     "descripcion": "Fulguración clase X4.5 de la región activa 13825.",
     "descripcion_en": "Class X4.5 flare from active region 13825.",
     "id_donki": "2024-09-14T15:13:00-FLR-001",
-    "verificar": "https://ccmc.gsfc.nasa.gov/DONKI-API/get/FLR?startDate=2024-09-13&endDate=2024-09-15"
+    "pagina_donki": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/33428/-1",
+    "verificar": "https://ccmc.gsfc.nasa.gov/DONKI-API/get/FLR?startDate=2024-09-13&endDate=2024-09-15&class=X"
   },
   {
     "fecha": "2024-10-01",
@@ -130,7 +138,8 @@ const EVENTOS_RESPALDO = [
     "descripcion": "Fulguración clase X7.1 de la región activa 13842.",
     "descripcion_en": "Class X7.1 flare from active region 13842.",
     "id_donki": "2024-10-01T21:58:00-FLR-001",
-    "verificar": "https://ccmc.gsfc.nasa.gov/DONKI-API/get/FLR?startDate=2024-09-30&endDate=2024-10-02"
+    "pagina_donki": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/33656/-1",
+    "verificar": "https://ccmc.gsfc.nasa.gov/DONKI-API/get/FLR?startDate=2024-09-30&endDate=2024-10-02&class=X"
   },
   {
     "fecha": "2024-10-03",
@@ -141,7 +150,8 @@ const EVENTOS_RESPALDO = [
     "descripcion": "La fulguración más fuerte registrada en DONKI entre 2024 y 2026.",
     "descripcion_en": "The strongest flare recorded in DONKI in 2024-2026.",
     "id_donki": "2024-10-03T12:08:00-FLR-001",
-    "verificar": "https://ccmc.gsfc.nasa.gov/DONKI-API/get/FLR?startDate=2024-10-02&endDate=2024-10-04"
+    "pagina_donki": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/33693/-1",
+    "verificar": "https://ccmc.gsfc.nasa.gov/DONKI-API/get/FLR?startDate=2024-10-02&endDate=2024-10-04&class=X"
   },
   {
     "fecha": "2024-10-09",
@@ -152,7 +162,8 @@ const EVENTOS_RESPALDO = [
     "descripcion": "Fulguración clase X1.8. Esa misma mañana llegó una tormenta de partículas.",
     "descripcion_en": "Class X1.8 flare. That same morning a particle storm arrived.",
     "id_donki": "2024-10-09T01:25:00-FLR-001",
-    "verificar": "https://ccmc.gsfc.nasa.gov/DONKI-API/get/FLR?startDate=2024-10-08&endDate=2024-10-10"
+    "pagina_donki": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/33863/-1",
+    "verificar": "https://ccmc.gsfc.nasa.gov/DONKI-API/get/FLR?startDate=2024-10-08&endDate=2024-10-10&class=X"
   },
   {
     "fecha": "2024-10-09",
@@ -163,6 +174,7 @@ const EVENTOS_RESPALDO = [
     "descripcion": "Tormenta de partículas que siguió a la fulguración X1.8 de la región 13848. Algunas partículas fueron muy energéticas (más de 100 MeV).",
     "descripcion_en": "Particle storm that followed the X1.8 flare from region 13848. Some particles were very energetic (over 100 MeV).",
     "id_donki": "2024-10-09T03:50:00-SEP-001",
+    "pagina_donki": "https://ccmc.gsfc.nasa.gov/DONKI/view/SEP/33868/-1",
     "verificar": "https://ccmc.gsfc.nasa.gov/DONKI-API/get/SEP?startDate=2024-10-08&endDate=2024-10-10"
   },
   {
@@ -174,7 +186,8 @@ const EVENTOS_RESPALDO = [
     "descripcion": "La fulguración más fuerte de 2025 registrada en DONKI.",
     "descripcion_en": "The strongest flare of 2025 recorded in DONKI.",
     "id_donki": "2025-11-11T09:49:00-FLR-001",
-    "verificar": "https://ccmc.gsfc.nasa.gov/DONKI-API/get/FLR?startDate=2025-11-10&endDate=2025-11-12"
+    "pagina_donki": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/42610/-1",
+    "verificar": "https://ccmc.gsfc.nasa.gov/DONKI-API/get/FLR?startDate=2025-11-10&endDate=2025-11-12&class=X"
   },
   {
     "fecha": "2025-11-11",
@@ -185,6 +198,7 @@ const EVENTOS_RESPALDO = [
     "descripcion": "Tormenta de partículas que siguió a la fulguración X5.1 de la región 14274. Algunas partículas fueron muy energéticas (más de 100 MeV).",
     "descripcion_en": "Particle storm that followed the X5.1 flare from region 14274. Some particles were very energetic (over 100 MeV).",
     "id_donki": "2025-11-11T09:45:00-SEP-001",
+    "pagina_donki": "https://ccmc.gsfc.nasa.gov/DONKI/view/SEP/42608/-1",
     "verificar": "https://ccmc.gsfc.nasa.gov/DONKI-API/get/SEP?startDate=2025-11-10&endDate=2025-11-12"
   },
   {
@@ -196,7 +210,8 @@ const EVENTOS_RESPALDO = [
     "descripcion": "Fulguración clase X4.0 de la misma región que la X5.1 de tres días antes.",
     "descripcion_en": "Class X4.0 flare from the same region as the X5.1 flare three days earlier.",
     "id_donki": "2025-11-14T07:44:00-FLR-001",
-    "verificar": "https://ccmc.gsfc.nasa.gov/DONKI-API/get/FLR?startDate=2025-11-13&endDate=2025-11-15"
+    "pagina_donki": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/42702/-1",
+    "verificar": "https://ccmc.gsfc.nasa.gov/DONKI-API/get/FLR?startDate=2025-11-13&endDate=2025-11-15&class=X"
   },
   {
     "fecha": "2026-02-01",
@@ -207,7 +222,8 @@ const EVENTOS_RESPALDO = [
     "descripcion": "La fulguración más fuerte de 2026 registrada en DONKI hasta el 14 de noviembre.",
     "descripcion_en": "The strongest flare of 2026 recorded in DONKI up to November 14.",
     "id_donki": "2026-02-01T23:44:00-FLR-001",
-    "verificar": "https://ccmc.gsfc.nasa.gov/DONKI-API/get/FLR?startDate=2026-01-31&endDate=2026-02-02"
+    "pagina_donki": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/44361/-1",
+    "verificar": "https://ccmc.gsfc.nasa.gov/DONKI-API/get/FLR?startDate=2026-01-31&endDate=2026-02-02&class=X"
   },
   {
     "fecha": "2026-02-04",
@@ -218,7 +234,8 @@ const EVENTOS_RESPALDO = [
     "descripcion": "Fulguración clase X4.2 de la misma región que la X8.1 de tres días antes.",
     "descripcion_en": "Class X4.2 flare from the same region as the X8.1 flare three days earlier.",
     "id_donki": "2026-02-04T12:02:00-FLR-001",
-    "verificar": "https://ccmc.gsfc.nasa.gov/DONKI-API/get/FLR?startDate=2026-02-03&endDate=2026-02-05"
+    "pagina_donki": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/44437/-1",
+    "verificar": "https://ccmc.gsfc.nasa.gov/DONKI-API/get/FLR?startDate=2026-02-03&endDate=2026-02-05&class=X"
   },
   {
     "fecha": "2026-04-24",
@@ -229,7 +246,8 @@ const EVENTOS_RESPALDO = [
     "descripcion": "Fulguración clase X2.5 de la región activa 14419, la segunda X de ese mismo día.",
     "descripcion_en": "Class X2.5 flare from active region 14419, the second X flare that day.",
     "id_donki": "2026-04-24T08:01:00-FLR-001",
-    "verificar": "https://ccmc.gsfc.nasa.gov/DONKI-API/get/FLR?startDate=2026-04-23&endDate=2026-04-25"
+    "pagina_donki": "https://ccmc.gsfc.nasa.gov/DONKI/view/FLR/45836/-1",
+    "verificar": "https://ccmc.gsfc.nasa.gov/DONKI-API/get/FLR?startDate=2026-04-23&endDate=2026-04-25&class=X"
   },
   {
     "fecha": "2026-07-30",
@@ -240,6 +258,7 @@ const EVENTOS_RESPALDO = [
     "descripcion": "Tormenta de partículas que siguió a la fulguración M1.9 de la región 14492. Algunas partículas fueron muy energéticas (más de 100 MeV).",
     "descripcion_en": "Particle storm that followed the M1.9 flare from region 14492. Some particles were very energetic (over 100 MeV).",
     "id_donki": "2026-07-30T18:20:00-SEP-001",
+    "pagina_donki": "https://ccmc.gsfc.nasa.gov/DONKI/view/SEP/47868/-1",
     "verificar": "https://ccmc.gsfc.nasa.gov/DONKI-API/get/SEP?startDate=2026-07-29&endDate=2026-07-31"
   },
   {
@@ -251,6 +270,7 @@ const EVENTOS_RESPALDO = [
     "descripcion": "Tormenta de partículas que siguió a la fulguración M1.0 de la región 14520. Algunas partículas fueron muy energéticas (más de 100 MeV).",
     "descripcion_en": "Particle storm that followed the M1.0 flare from region 14520. Some particles were very energetic (over 100 MeV).",
     "id_donki": "2026-09-05T15:45:00-SEP-001",
+    "pagina_donki": "https://ccmc.gsfc.nasa.gov/DONKI/view/SEP/48551/-1",
     "verificar": "https://ccmc.gsfc.nasa.gov/DONKI-API/get/SEP?startDate=2026-09-04&endDate=2026-09-06"
   }
 ];
@@ -438,7 +458,7 @@ const TEXTOS = {
     cartaRegion: (p) => 'Región ' + p.r,
     cartaReal: 'Evento real · NASA DONKI',
     cartaReciente: '🆕 Reciente',
-    cartaVerificar: 'Verificar en DONKI',
+    cartaVerificar: '🔎 Ver este evento en la web de la NASA',
     explicaFLR: 'Un destello enorme de luz y rayos X. Llega en unos 8 minutos y puede cortar la radio, pero no hace daño dentro de la base. La X marca los más fuertes.',
     explicaSEP: 'Partículas diminutas y muy rápidas que lanza el Sol. Pueden dañar el cuerpo; por eso la base necesita escudo. En la Luna no hay aire ni campo magnético que proteja.',
     albumTitulo: '🎴 Tu álbum de eventos reales del Sol',
@@ -634,7 +654,7 @@ const TEXTOS = {
     cartaRegion: (p) => 'Region ' + p.r,
     cartaReal: 'Real event · NASA DONKI',
     cartaReciente: '🆕 Recent',
-    cartaVerificar: 'Verify in DONKI',
+    cartaVerificar: '🔎 See this event on NASA’s website',
     explicaFLR: 'A huge flash of light and X-rays. It arrives in about 8 minutes and can cut the radio, but it does no harm inside the base. The X marks the strongest ones.',
     explicaSEP: 'Tiny, very fast particles thrown out by the Sun. They can harm the body, so the base needs a shield. The Moon has no air or magnetic field to protect you.',
     albumTitulo: '🎴 Your album of real Sun events',
@@ -796,7 +816,7 @@ async function cargarClimaReciente() {
         region_activa: String(f.activeRegionNum || ''), intensidad: fuerzaClase(f.classType) >= 50 ? 'alta' : 'media',
         descripcion: 'Fulguración clase ' + f.classType + ' registrada en DONKI hace pocos días.',
         descripcion_en: 'Class ' + f.classType + ' flare recorded in DONKI a few days ago.',
-        id_donki: f.flrID, reciente: true
+        id_donki: f.flrID, pagina_donki: f.link, reciente: true
       });
     }
     const dias = new Set();
@@ -808,7 +828,7 @@ async function cargarClimaReciente() {
         fecha, tipo: 'SEP', clase: null, region_activa: null, intensidad: 'media',
         descripcion: 'Tormenta de partículas registrada en DONKI hace pocos días.',
         descripcion_en: 'Particle storm recorded in DONKI a few days ago.',
-        id_donki: s.sepID, reciente: true
+        id_donki: s.sepID, pagina_donki: s.link, reciente: true
       });
     }
     eventosRecientes = nuevos;
@@ -1298,7 +1318,8 @@ function htmlCarta(ev, extra) {
     '<p class="carta-datos">' + (ev.clase ? esc(tr('cartaClase', { c: ev.clase })) + ' · ' : '') + (ev.region_activa ? esc(tr('cartaRegion', { r: ev.region_activa })) : '') + '</p>' +
     '<p class="carta-desc">' + esc(desc) + '</p>' +
     (extra || '') +
-    (ev.verificar ? '<a class="carta-enlace" href="' + esc(ev.verificar) + '" target="_blank" rel="noopener">' + esc(tr('cartaVerificar')) + '</a>' : '') +
+    // Enlace a la ficha oficial del evento en DONKI (página legible, con gráfico)
+    ((ev.pagina_donki || ev.verificar) ? '<a class="carta-enlace" href="' + esc(ev.pagina_donki || ev.verificar) + '" target="_blank" rel="noopener">' + esc(tr('cartaVerificar')) + '</a>' : '') +
   '</article>';
 }
 

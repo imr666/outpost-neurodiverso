@@ -66,7 +66,7 @@ El diseño sigue los tres principios del Diseño Universal para el Aprendizaje (
 ## 5. Datos reales utilizados
 
 **NASA DONKI (clima espacial).**
-- `data/donki-eventos.json`: 20 eventos reales de enero de 2024 a noviembre de 2026 (13 fulguraciones de clase X y 7 tormentas de partículas SEP), verificados el 14 de noviembre de 2026. Cada uno tiene `id_donki` (su identificador oficial), `verificar` (la consulta para comprobarlo) y descripciones en español e inglés.
+- `data/donki-eventos.json`: 20 eventos reales de enero de 2024 a noviembre de 2026 (13 fulguraciones de clase X y 7 tormentas de partículas SEP), verificados el 14 de noviembre de 2026. Cada uno tiene `id_donki` (su identificador oficial), `pagina_donki` (su ficha oficial en la web de la NASA, legible y con gráfico), `verificar` (la consulta técnica en JSON) y descripciones en español e inglés. En el juego, cada carta tiene el enlace **🔎 Ver este evento en la web de la NASA**.
 - **En vivo:** al abrir el juego se consulta `https://ccmc.gsfc.nasa.gov/DONKI-API/get/` (FLR, SEP, CME). El servicio no pide clave. La pantalla de inicio muestra "El Sol esta semana" y los eventos fuertes del último mes entran a la misión como cartas 🆕. La fecha la pone el equipo donde se abre el juego. Sin internet, se juega con los eventos guardados.
 - **Intensidad (regla del juego):** una SEP que llevó partículas de más de 100 MeV exige escudo 4; las demás, escudo 3.
 
@@ -109,7 +109,7 @@ Seguir a Ana da las 3 estrellas en los 4 superpoderes. Para conseguirlas sin ayu
 1. Abre el enlace. Mira la tarjeta **El Sol esta semana** (datos en vivo) y cambia de idioma con 🌐.
 2. Elige **🔭 Pronóstico** y sigue el tutorial de 4 pasos.
 3. Toca módulos y observa el cambio inmediato. Usa **💡 Usar sugerencia** una vez.
-4. Termina el día 3: aparece una **carta real** con su fecha, su clase y el enlace para verificarla en DONKI.
+4. Termina el día 3: aparece una **carta real** con su fecha, su clase y el enlace a su ficha oficial en la web de la NASA.
 5. Termina la misión, revisa las estrellas y abre el **🎴 álbum**.
 
 ## 9. Ejecutar y publicar
