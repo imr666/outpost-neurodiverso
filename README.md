@@ -2,9 +2,9 @@
 
 *Versión en español: [LEEME.md](LEEME.md)*
 
-**A bilingual (English / Spanish) browser game for kids aged 7–12. Run a Moon base by sharing out the Sun’s power, protect your crew from real solar events recorded by NASA, and collect their cards.**
+**A bilingual (English / Spanish) browser game for kids aged 7–12. You run a Moon base by sharing out the Sun’s power, protect your crew from real solar events recorded by NASA, and collect their cards.**
 
-Built for the **NASA Space Apps Challenge 2026**. It runs in the browser on computers, tablets and phones, with no downloads, no accounts and no dependencies.
+I built it for the **NASA Space Apps Challenge 2026**. It runs in the browser on computers, tablets and phones, with no downloads, no accounts and no dependencies.
 
 ---
 
@@ -30,9 +30,9 @@ Design a game for kids aged 7–12 to manage a lunar or Martian outpost while ba
 | Nothing to collect | An album of real solar-event cards (20 historical plus live recent ones) |
 | Lots of text | Icons, crew faces and a short tip from Ana that you can apply with one tap |
 
-## 4. Human-centered, neurodivergent approach
+## 4. My approach: designed for diverse brains
 
-**Mental load is part of the rules.** The crew’s mental energy (the opposite of cognitive load) shows on their faces. If you use 0–2 ☀️ in a day, the crew rests (+1). With 3 nothing changes, and with 4 they get tired (−1). At 0, the next day they can only work with 2 ☀️. Resting is a strategy too.
+I am an engineer with ADHD, and I built this game for the kids who are often left out: autistic children, kids with ADHD and other ways of processing the world. That is why **mental load is part of the rules**. The crew’s mental energy shows on their faces. If you use 0–2 ☀️ in a day, the crew rests (+1). With 3 nothing changes, and with 4 they get tired (−1). At 0, the next day they can only work with 2 ☀️. Resting is a strategy too.
 
 **Superpowers instead of "modes".** At the start, the player chooses how they like to process information. None of them is the "normal" one: each one helps and each one costs something.
 
@@ -63,18 +63,18 @@ The design follows the three principles of Universal Design for Learning (CAST, 
 - Works with keyboard, mouse or touch.
 - The language can be switched at any time with 🌐.
 
-## 5. Real data used
+## 5. Real data I use
 
 **NASA DONKI (space weather).**
-- `data/donki-eventos.json`: 20 real events from January 2024 to November 2026 (13 X-class flares and 7 SEP events), verified on November 14, 2026. Each one has `id_donki` (its official ID), `pagina_donki` (its official, human-readable NASA page with a plot), `verificar` (the technical JSON query) and descriptions in Spanish and English. In the game, every card links to **🔎 See this event on NASA’s website**.
+- `data/donki-eventos.json` holds 20 real events from January 2024 to November 2026 (13 X-class flares and 7 SEP events), verified on November 14, 2026. Each one has `id_donki` (its official ID), `pagina_donki` (its official, human-readable NASA page with a plot), `verificar` (the technical JSON query) and descriptions in Spanish and English. In the game, every card links to **🔎 See this event on NASA’s website**.
 - **Live:** when the game opens, it queries `https://ccmc.gsfc.nasa.gov/DONKI-API/get/` (FLR, SEP, CME). The service needs no key. The start screen shows "The Sun this week", and strong events from the last month join the mission as 🆕 cards. The date comes from the device the game runs on. Offline, the game uses the saved events.
 - **Intensity (game rule):** an SEP event with particles above 100 MeV needs shield level 4; the others need level 3.
 
 **NASA OSDR (greenhouse):** OSD-268 (lettuce grown in Veggie on the Space Station) and OSD-772 (chile peppers grown for 137 days in the Advanced Plant Habitat, 26 fruits).
 
-**CSA:** the *Food production on the Moon and in remote areas* toolkit provided the educational framing for food production.
+**CSA:** the *Food production on the Moon and in remote areas* toolkit gave me the educational framing for food production.
 
-**Not used:** RadLab returned HTTP 500 during development, so radiation damage is a game rule. Mental energy, air and food values are design parameters, not measurements.
+**What I do not use:** RadLab returned HTTP 500 during development, so radiation damage is a game rule. Mental energy, air and food values are design parameters, not measurements.
 
 ## 6. Exact rules
 
@@ -125,9 +125,13 @@ Double-click `index.html`, or publish it with GitHub Pages (*Settings → Pages 
 
 ## 11. Use of artificial intelligence
 
-Code, texts in both languages, data retrieval and verification, and balance simulations were developed with assistance from generative AI (Claude, by Anthropic). The author defined the concept, the human-centered neurodivergent approach and the design decisions, and reviewed, tested and approved the result. *(Adjust this paragraph to your actual process.)*
+I developed the code, the texts in both languages, the data retrieval and verification, and the balance simulations with assistance from generative AI (Claude, by Anthropic). I defined the concept, the human-centered neurodivergent approach and the design decisions, and I reviewed, tested and approved the result.
 
 ## 12. Credits
 
 **Irving Mellin Rubio**, electronic engineer, solo participant. NASA Space Apps Challenge 2026.
 Data: NASA DONKI (CCMC, NASA Goddard) and NASA OSDR. Educational resource: Canadian Space Agency (CSA).
+
+
+
+
