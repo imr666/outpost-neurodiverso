@@ -2,20 +2,20 @@
 
 *English version: [README.md](README.md)*
 
-**Juego de navegador bilingüe (español / inglés) para niños de 7 a 12 años. Cuida una base en la Luna repartiendo la energía del Sol, protege a tu equipo de eventos solares reales registrados por la NASA y colecciona sus cartas.**
+**Un juego de navegador, en español e inglés, para niños de 7 a 12 años. Cuidas una base en la Luna repartiendo la energía del Sol, proteges a tu equipo de eventos solares reales registrados por la NASA y coleccionas sus cartas.**
 
-Proyecto para el **NASA Space Apps Challenge 2026**. Funciona en el navegador, en computador, tableta o celular, sin descargas, sin cuentas y sin dependencias.
+Lo hice para el **NASA Space Apps Challenge 2026**. Funciona en el navegador, en computador, tableta o celular. No hay que descargar nada, no hay que crear cuentas y no necesita instalar programas.
 
 ---
 
 ## 1. El reto
 
-Diseñar un juego para niños de 7 a 12 años que gestione un puesto avanzado en la Luna o en Marte. El jugador debe equilibrar soporte vital (oxígeno), blindaje contra la radiación, energía, producción de alimentos y retrasos en las comunicaciones. Ninguna decisión puede ser gratuita y la simulación debe basarse en datos abiertos reales de la NASA.
+Diseñar un juego para niños de 7 a 12 años que gestione un puesto avanzado en la Luna o en Marte. El jugador debe equilibrar el soporte vital (oxígeno), el blindaje contra la radiación, la energía, la producción de alimentos y los retrasos en las comunicaciones. Ninguna decisión puede ser gratuita y la simulación debe basarse en datos abiertos reales de la NASA.
 
 ## 2. Cómo se juega (en 30 segundos)
 
 1. Cada día el Sol te da **4 ☀️ de energía**.
-2. **Toca los módulos** de la base para darles energía: 🛡️ Escudo, 💨 Aire, 🌱 Invernadero, 🔬 Laboratorio. Cada toque cambia algo que se ve al instante.
+2. **Toca los módulos** de la base para darles energía: 🛡️ Escudo, 💨 Aire, 🌱 Invernadero, 🔬 Laboratorio. Cada toque cambia algo que ves al instante.
 3. Mira el **pronóstico del Sol**: cada 3 días llega un **evento real** (de 2024 a 2026, tomado de NASA DONKI). Una tormenta de partículas exige escudo 3 o 4.
 4. Pulsa **🌙 Terminar el día**: el equipo respira, come, descansa o se cansa, y si hubo evento ganas su **carta real** para el álbum.
 5. Gana hasta **3 estrellas**: aguantar todos los días, juntar 3 muestras de ciencia y bloquear todas las tormentas.
@@ -30,9 +30,9 @@ Diseñar un juego para niños de 7 a 12 años que gestione un puesto avanzado en
 | Nada que coleccionar | Un álbum de cartas de eventos solares reales (20 históricos + los recientes en vivo) |
 | Mucho texto | Íconos, caras del equipo y un consejo corto de Ana que se aplica con un toque |
 
-## 4. Enfoque humanista y neurodivergente
+## 4. Mi enfoque: pensado para cerebros diversos
 
-**La carga mental es parte de las reglas.** La energía mental del equipo (lo contrario de la carga cognitiva) se ve en sus caras. Si en un día usas 0 a 2 ☀️, el equipo descansa (+1). Con 3 se queda igual y con 4 se cansa (−1). Si llega a 0, al día siguiente solo pueden trabajar con 2 ☀️. Descansar también es estrategia.
+Soy ingeniero con TDAH y hice este juego pensando en los niños que suelen quedar fuera: niños autistas, con TDAH y otras formas de procesar el mundo. Por eso la **carga mental es parte de las reglas**. La energía mental del equipo se ve en sus caras. Si en un día usas 0 a 2 ☀️, el equipo descansa (+1). Con 3 se queda igual y con 4 se cansa (−1). Si llega a 0, al día siguiente solo pueden trabajar con 2 ☀️. Descansar también es estrategia.
 
 **Superpoderes en lugar de "modos".** Al empezar, el jugador elige cómo prefiere procesar la información. Ninguno es el "normal": todos ayudan y todos cuestan.
 
@@ -45,7 +45,7 @@ Diseñar un juego para niños de 7 a 12 años que gestione un puesto avanzado en
 
 El **retraso de las comunicaciones** aparece con el Pronóstico: un destello solar corta la radio y al día siguiente no llega el aviso.
 
-**Sin un modo "normal".** Ganar no depende de reaccionar rápido, leer rápido, adivinar reglas ocultas ni tolerar sorpresas:
+**No hay un modo "normal".** Ganar no depende de reaccionar rápido, leer rápido, adivinar reglas ocultas ni tolerar sorpresas:
 - No hay límite de tiempo y se juega a tu ritmo.
 - Las reglas y los costos están siempre a la vista.
 - La noche resuelve todo sin azar, así que los resultados son predecibles.
@@ -63,18 +63,18 @@ El diseño sigue los tres principios del Diseño Universal para el Aprendizaje (
 - Se puede jugar con teclado, mouse o pantalla táctil.
 - El idioma se cambia en cualquier momento con 🌐.
 
-## 5. Datos reales utilizados
+## 5. Datos reales que uso
 
 **NASA DONKI (clima espacial).**
-- `data/donki-eventos.json`: 20 eventos reales de enero de 2024 a noviembre de 2026 (13 fulguraciones de clase X y 7 tormentas de partículas SEP), verificados el 14 de noviembre de 2026. Cada uno tiene `id_donki` (su identificador oficial), `pagina_donki` (su ficha oficial en la web de la NASA, legible y con gráfico), `verificar` (la consulta técnica en JSON) y descripciones en español e inglés. En el juego, cada carta tiene el enlace **🔎 Ver este evento en la web de la NASA**.
-- **En vivo:** al abrir el juego se consulta `https://ccmc.gsfc.nasa.gov/DONKI-API/get/` (FLR, SEP, CME). El servicio no pide clave. La pantalla de inicio muestra "El Sol esta semana" y los eventos fuertes del último mes entran a la misión como cartas 🆕. La fecha la pone el equipo donde se abre el juego. Sin internet, se juega con los eventos guardados.
+- `data/donki-eventos.json` tiene 20 eventos reales de enero de 2024 a noviembre de 2026 (13 fulguraciones de clase X y 7 tormentas de partículas SEP), verificados el 14 de noviembre de 2026. Cada uno tiene `id_donki` (su identificador oficial), `pagina_donki` (su ficha oficial en la web de la NASA, legible y con gráfico), `verificar` (la consulta técnica en JSON) y descripciones en español e inglés. En el juego, cada carta tiene el enlace **🔎 Ver este evento en la web de la NASA**.
+- **En vivo:** al abrir el juego se consulta `https://ccmc.gsfc.nasa.gov/DONKI-API/get/` (FLR, SEP, CME). El servicio no pide clave. La pantalla de inicio muestra "El Sol esta semana" y los eventos fuertes del último mes entran a la misión como cartas 🆕. La fecha la toma el equipo donde se abre el juego. Sin internet, se juega con los eventos guardados.
 - **Intensidad (regla del juego):** una SEP que llevó partículas de más de 100 MeV exige escudo 4; las demás, escudo 3.
 
 **NASA OSDR (invernadero):** OSD-268 (lechuga en Veggie, Estación Espacial) y OSD-772 (chiles durante 137 días en el Advanced Plant Habitat, 26 frutos).
 
-**CSA:** el kit *Food production on the Moon and in remote areas* sirvió de marco educativo para la producción de alimentos.
+**CSA:** el kit *Food production on the Moon and in remote areas* me sirvió de marco educativo para la producción de alimentos.
 
-**Lo que no se usa:** RadLab respondía con error 500 durante el desarrollo, así que el daño por radiación es una regla de juego. Los valores de energía mental, aire y comida son parámetros de diseño, no mediciones.
+**Lo que no uso:** RadLab respondía con error 500 durante el desarrollo, así que el daño por radiación es una regla de juego. Los valores de energía mental, aire y comida son parámetros de diseño, no mediciones.
 
 ## 6. Reglas exactas
 
@@ -125,7 +125,7 @@ Doble clic en `index.html`, o publícalo con GitHub Pages (*Settings → Pages �
 
 ## 11. Uso de inteligencia artificial
 
-El código, los textos en ambos idiomas, la descarga y verificación de datos y las simulaciones de equilibrio se hicieron con asistencia de IA generativa (Claude, de Anthropic). El autor definió el concepto, el enfoque humanista y neurodivergente y las decisiones de diseño, y revisó, probó y aprobó el resultado. *(Ajusta este párrafo a tu proceso real.)*
+El código, los textos en ambos idiomas, la descarga y verificación de datos y las simulaciones de equilibrio los hice con asistencia de IA generativa (Claude, de Anthropic). Yo definí el concepto, el enfoque humanista y neurodivergente y las decisiones de diseño, y revisé, probé y aprobé el resultado.
 
 ## 12. Créditos
 
