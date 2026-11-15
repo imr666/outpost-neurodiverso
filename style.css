@@ -1,5 +1,6 @@
 /* ==================================================================
    OUTPOST NEURODIVERSO — style.css
+   Desarrollado con asistencia de IA (Claude, Anthropic) y revisado por el autor.
    Diseño de juego amable: colores vivos pero suaves, botones grandes,
    todo en el mismo lugar, sin parpadeos. Las animaciones son cortas y
    se apagan si el sistema pide "reducir movimiento".
@@ -435,3 +436,5 @@ a { color: var(--sol); }
 
 /* Módulos de abajo: el "?" se abre hacia arriba para no salirse de la escena */
 .modulo:nth-child(n+3) .tooltip-texto { top: auto; bottom: calc(100% + 8px); }
+
+.nota-ia { color: var(--texto-suave); font-size: 18px; }

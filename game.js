@@ -3,6 +3,10 @@
    Juego de navegador bilingüe (español / inglés). JavaScript puro:
    sin librerías, sin frameworks, sin npm.
    Autor: Irving Mellin Rubio — NASA Space Apps Challenge 2026
+   Uso de IA: el código, los textos en ambos idiomas, el procesamiento de
+   datos de DONKI/OSDR y las pruebas se desarrollaron con asistencia de IA
+   (Claude, de Anthropic). El autor definió el concepto y las reglas, y
+   revisó y probó el resultado.
 
    CÓMO SE JUEGA
    Cada día recibes ☀️ energía y la repartes tocando los módulos de la
@@ -341,6 +345,7 @@ const TEXTOS = {
     empezar: (p) => '🚀 Empezar con ' + p.n,
     empezarInactivo: 'Elige un superpoder',
     planAnterior: (p) => '📝 Tu plan de la misión anterior: ' + p.t,
+    notaIA: '🤖 Código y textos desarrollados con asistencia de IA (Claude, de Anthropic) y revisados por el autor.',
     poder_visual_nombre: 'Vista rápida',
     poder_visual_ayuda: 'Pocas palabras: todo con íconos.',
     poder_visual_costo: 'Ana no te da consejos.',
@@ -546,6 +551,7 @@ const TEXTOS = {
     empezar: (p) => '🚀 Start with ' + p.n,
     empezarInactivo: 'Choose a superpower',
     planAnterior: (p) => '📝 Your plan from last mission: ' + p.t,
+    notaIA: '🤖 Code and texts developed with AI assistance (Claude, by Anthropic) and reviewed by the author.',
     poder_visual_nombre: 'Quick eye',
     poder_visual_ayuda: 'Few words: everything with icons.',
     poder_visual_costo: 'Ana gives you no tips.',

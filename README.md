@@ -1,137 +1,137 @@
-# 🌙 Neurodiverse Outpost (Outpost Neurodiverso)
+# Neurodiverse Outpost
 
-*Versión en español: [LEEME.md](LEEME.md)*
+Versión en español: [LEEME.md](LEEME.md)
 
-**A bilingual (English / Spanish) browser game for kids aged 7–12. You run a Moon base by sharing out the Sun’s power, protect your crew from real solar events recorded by NASA, and collect their cards.**
+A browser game in English and Spanish for kids aged 7 to 12. The player runs a base on the Moon for ten days. Each day they share out the Sun's power among four modules and protect their crew from solar events that NASA actually recorded. Every event they get through leaves a card for their album.
 
-I built it for the **NASA Space Apps Challenge 2026**. It runs in the browser on computers, tablets and phones, with no downloads, no accounts and no dependencies.
+I built it for the NASA Space Apps Challenge 2026. It works in any modern browser on a computer, tablet or phone. There is nothing to install and no account to create.
 
----
+## The challenge
 
-## 1. The challenge
+The challenge asked for a game for kids aged 7 to 12 about running an outpost on the Moon or Mars. The player had to balance oxygen, radiation shielding, power, food and communication delays. No decision could be free, and the data had to come from NASA open sources.
 
-Design a game for kids aged 7–12 to manage a lunar or Martian outpost while balancing life support (oxygen), radiation shielding, power, food production and communication delays. No decision may be free, and the simulation must be based on real NASA open data.
+I added a condition of my own. Many educational games reward the kid who reads fast, reacts fast and copes well with surprises. I wanted a game where none of those things decides who wins. That is why the crew's tiredness and rest are part of the rules.
 
-## 2. How to play (in 30 seconds)
+## How to play
 
-1. Each day the Sun gives you **4 ☀️ power**.
-2. **Tap the base modules** to give them power: 🛡️ Shield, 💨 Air, 🌱 Greenhouse and 🔬 Lab. Every tap changes something you can see right away.
-3. Watch the **Sun forecast**: every 3 days a **real event** (2024–2026, from NASA DONKI) arrives. A particle storm needs shield level 3 or 4.
-4. Press **🌙 End the day**. The crew breathes, eats, rests or gets tired, and if there was an event you earn its **real card** for your album.
-5. Earn up to **3 stars**: last all the days, collect 3 science samples and block every storm.
+1. Every morning the Sun delivers 4 units of power.
+2. The player taps the modules to give power to them: Shield, Air, Greenhouse and Lab. Each tap shows up right away. The shield grows, the air tank fills and the plant sprouts.
+3. The forecast says what is coming. Every three days a real event from 2024 to 2026 arrives, taken from NASA's DONKI database. A particle storm needs shield level 3 or 4.
+4. The "End the day" button makes the crew breathe, eat and rest, or get tired. If there was an event, the player gets its card.
+5. There are three stars to earn: finish the mission, collect 3 science samples and block every storm.
 
-## 3. Why it is engaging
+Ana, the commander, suggests a split that can be applied with one tap. Following her suggestions guarantees the mission. To earn all three stars without help, the player has to read the forecast and look after the crew's rest.
 
-| What usually bores kids | What this game does |
-|---|---|
-| Picking from a menu and reading numbers | Tap modules and see the change right away: the shield grows, the tank fills, the plant sprouts |
-| The reward only comes at the end | A reward every night: harvests, samples, a new card |
-| Abstract goals | 3 visible stars from the first second |
-| Nothing to collect | An album of real solar-event cards (20 historical plus live recent ones) |
-| Lots of text | Icons, crew faces and a short tip from Ana that you can apply with one tap |
+## Tiredness, rest and superpowers
 
-## 4. My approach: designed for diverse brains
+The crew has a mental energy level that shows on their faces. If 0 to 2 units are used in a day, the crew rests and gains a point. With 3 it stays the same, and with 4 they get tired and lose one. If it reaches zero, the next day they can only work with 2 units. Sometimes resting is the best move.
 
-I am an engineer with ADHD, and I built this game for the kids who are often left out: autistic children, kids with ADHD and other ways of processing the world. That is why **mental load is part of the rules**. The crew’s mental energy shows on their faces. If you use 0–2 ☀️ in a day, the crew rests (+1). With 3 nothing changes, and with 4 they get tired (−1). At 0, the next day they can only work with 2 ☀️. Resting is a strategy too.
+At the start, the player picks a superpower based on how they like to take in information. None of them is the "normal" mode, and each one has a cost:
 
-**Superpowers instead of "modes".** At the start, the player chooses how they like to process information. None of them is the "normal" one: each one helps and each one costs something.
-
-| Superpower | Helps you | Costs |
+| Superpower | What it gives | What it costs |
 |---|---|---|
-| 👁️ Quick eye | Everything with icons and a visual legend | Ana gives no tips |
-| 👣 Planner | See how everything will look before ending the day, and undo | 1 less ☀️ every 2 days |
-| 📖 Narrator | Explanations and fun NASA facts every day | The mission lasts 12 days instead of 10 |
-| 🔭 Forecaster | Know which event is coming and how much shield you need | The antenna uses 1 ☀️ the day before each event |
+| Quick eye | Everything is shown with icons and a visual legend | Ana gives no suggestions |
+| Planner | Shows how the base will look before the day ends, with undo | One less unit of power every two days |
+| Narrator | Explanations and NASA fun facts every day | The mission lasts 12 days instead of 10 |
+| Forecaster | Announces the next event and the shield it will need | The antenna uses one unit the day before each event |
 
-**Communication delays** show up with the Forecaster: a solar flare cuts the radio, so the next day’s warning does not arrive.
+Communication delay comes into play with the Forecaster: a solar flare cuts the radio, and the next day's warning does not arrive.
 
-**No "normal" mode.** Winning does not depend on reacting fast, reading fast, guessing hidden rules or coping with surprises:
-- There is no time limit, and you play at your own pace.
-- Every rule and cost is always visible.
-- The night resolves everything without randomness, so results are predictable.
-- The crew never blames anyone and the game never says "you lost".
-- The game never names diagnoses or asks players to identify themselves.
+Some design decisions:
 
-The design follows the three principles of Universal Design for Learning (CAST, UDL 3.0): multiple means of engagement, representation, and action and expression.
+- There is no time limit.
+- Rules and costs are always on screen.
+- The night is resolved without chance, so the same split always gives the same result.
+- Nobody blames the player, and the end screen never says "you lost".
+- The game does not mention diagnoses or ask the player whether they are neurodivergent.
 
-**Accessibility:**
-- Text of at least 18 px and big buttons.
-- Colors are always paired with icons or words.
-- No flashing.
-- Short animations that turn off when the system asks for reduced motion.
-- Optional sound, off by default, with soft tones.
-- Works with keyboard, mouse or touch.
-- The language can be switched at any time with 🌐.
+I followed the three principles of Universal Design for Learning (CAST, UDL 3.0): more than one way to get motivated, to take in information and to act.
 
-## 5. Real data I use
+## Accessibility
 
-**NASA DONKI (space weather).**
-- `data/donki-eventos.json` holds 20 real events from January 2024 to November 2026 (13 X-class flares and 7 SEP events), verified on November 14, 2026. Each one has `id_donki` (its official ID), `pagina_donki` (its official, human-readable NASA page with a plot), `verificar` (the technical JSON query) and descriptions in Spanish and English. In the game, every card links to **🔎 See this event on NASA’s website**.
-- **Live:** when the game opens, it queries `https://ccmc.gsfc.nasa.gov/DONKI-API/get/` (FLR, SEP, CME). The service needs no key. The start screen shows "The Sun this week", and strong events from the last month join the mission as 🆕 cards. The date comes from the device the game runs on. Offline, the game uses the saved events.
-- **Intensity (game rule):** an SEP event with particles above 100 MeV needs shield level 4; the others need level 3.
+- Text is at least 18 px and buttons are large.
+- No information depends on color alone; there is always an icon or a word with it.
+- Nothing flashes. Animations are short and turn off when the operating system asks for reduced motion.
+- Sound is optional, starts off and uses soft tones.
+- It can be played with a keyboard, a mouse or a touch screen.
+- The language can be switched at any time.
 
-**NASA OSDR (greenhouse):** OSD-268 (lettuce grown in Veggie on the Space Station) and OSD-772 (chile peppers grown for 137 days in the Advanced Plant Habitat, 26 fruits).
+## NASA data
 
-**CSA:** the *Food production on the Moon and in remote areas* toolkit gave me the educational framing for food production.
+**DONKI, the space weather database (CCMC, NASA Goddard).** The file `data/donki-eventos.json` stores 20 events from January 2024 to November 2026: 13 X-class flares and 7 solar energetic particle storms (SEP). I checked them one by one on November 14, 2026. Each record includes:
 
-**What I do not use:** RadLab returned HTTP 500 during development, so radiation damage is a game rule. Mental energy, air and food values are design parameters, not measurements.
+- its official identifier (`id_donki`);
+- a link to its page on NASA's website (`pagina_donki`);
+- the API query that returns it (`verificar`);
+- a description in Spanish and another in English.
 
-## 6. Exact rules
+Every card in the game has a "See this event on NASA's website" link.
 
-| Module | Each ☀️ gives | Every night |
+When the game opens, it also queries the public DONKI API (`https://ccmc.gsfc.nasa.gov/DONKI-API/get/`), which needs no key. The start screen uses it to show what the Sun did over the last week. Strong events from the last month join the mission as new cards. The reference date is the one on the device running the game. Offline, the game uses the stored events.
+
+I set an intensity rule for the game. A storm carrying particles above 100 MeV needs shield 4, and any other storm needs shield 3.
+
+**OSDR, the space biology repository.** The greenhouse is based on two studies:
+
+- OSD-268: lettuce grown in the Veggie system on the Space Station.
+- OSD-772: chile peppers grown for 137 days in the Advanced Plant Habitat, with a harvest of 26 fruits.
+
+**Canadian Space Agency.** Its educational kit *Food production on the Moon and in remote areas* was my framework for the food side of the game.
+
+What did not come from measurements: during development RadLab returned error 500, so radiation damage is a game rule. The air, food and mental energy values are design parameters as well.
+
+## Rules
+
+| Module | Each unit of power | Each night |
 |---|---|---|
-| 🛡️ Shield (0–5) | +1 level | −1 (wear) |
-| 💨 Air (0–10) | +2 | −2 (breathing). If it reaches 0, the mission ends |
-| 🌱 Greenhouse | 3 ☀️ = a harvest of 4 days of food | −1 food. With no food, mental energy −2 |
-| 🔬 Lab | 2 ☀️ = 1 sample (goal: 3) | — |
+| Shield (0 to 5) | goes up one level | goes down one level from wear |
+| Air (0 to 10) | adds 2 | 2 are used up; if it reaches 0, the mission ends |
+| Greenhouse | every 3 units, a harvest worth 4 days of food | 1 food is eaten; with no food, mental energy drops 2 |
+| Lab | every 2 units, one sample (the goal is 3) | no change |
 
-**Start:** air 10, food 7, shield 3, mental energy 3.
-**Events (days 3, 6, 9, 12):**
-- Storm (SEP) with too little shield: air −3 and mental energy −1.
-- Flare (FLR): no harm, and it cuts the radio for one day.
+The mission starts with air 10, food 7, shield 3 and mental energy 3. Events fall on days 3, 6, 9 and 12. If a storm arrives and the shield is too low, the crew loses 3 air and 1 mental energy. A flare does no damage but leaves the base without radio for a day. The mission ends early if air reaches zero or if mental energy stays at zero for three days in a row.
 
-**End:** the mission ends early if air reaches 0, or if mental energy stays at 0 for 3 days in a row.
+## Balance
 
-## 7. Balance (4,000 simulated games per strategy and superpower)
+I simulated 4,000 games for each strategy and each superpower. These are the results with Quick eye:
 
-| Strategy (Quick eye) | Survives | ★★★ |
+| Strategy | Finishes the mission | Three stars |
 |---|---|---|
-| Always put all power into one module | 0% | 0% |
-| Always share power evenly, ignoring the forecast | ~94% | ~33% |
-| Random | ~44% | ~16% |
-| Kid who follows Ana 2 days out of 3 and plays at random the rest | ~79% | ~72% |
+| All power on one module | 0% | 0% |
+| Always the same even split, ignoring the forecast | 94% | 33% |
+| Random | 44% | 16% |
+| Follow Ana two days out of three, random otherwise | 79% | 72% |
 | Always follow Ana | 100% | 100% |
 
-Following Ana earns 3 stars with all four superpowers. Earning them without help means watching the forecast and making sure the crew rests.
+With the other three superpowers, always following Ana also gives 100% in both columns.
 
-## 8. How to test it (judges, 3 minutes)
+## Trying it in three minutes
 
-1. Open the link. Check the **The Sun this week** card (live data) and switch language with 🌐.
-2. Choose **🔭 Forecaster** and follow the 4-step tutorial.
-3. Tap modules and watch them change right away. Use **💡 Use suggestion** once.
-4. End day 3: a **real card** appears, with its date, its class and a link to its official page on NASA’s website.
-5. Finish the mission, check your stars and open the **🎴 album**.
+1. Open the game and look at the "The Sun this week" box, which shows live data. Switch the language.
+2. Pick the Forecaster superpower and follow the four-step tutorial.
+3. Share out the power by tapping the modules. Try "Use suggestion" once.
+4. When day 3 ends, the event's card appears with its date, its class and the link to NASA's page.
+5. Finish the mission, check the stars and open the album.
 
-## 9. Run and publish
+## Running it
 
-Double-click `index.html`, or publish it with GitHub Pages (*Settings → Pages → Deploy from a branch → main / root*). If the browser blocks the JSON, the game uses its built-in copy, which has the same data.
+Open `index.html` in a browser. To publish it I use GitHub Pages (Settings, Pages, Deploy from a branch, `main` branch, root folder). If the browser blocks reading the local JSON file, the game uses a built-in copy with the same data.
 
-## 10. Future work
+It is plain HTML, CSS and JavaScript, with no frameworks and no external dependencies.
 
-- Integrate RadLab once its server is available.
-- A Mars mode with communication delays of several minutes.
+## Still to do
+
+- Connect RadLab once its service responds again.
+- A Mars mode, with communication delays of several minutes.
 - Optional read-aloud.
-- Testing with neurodivergent kids, their families and teachers.
+- Testing with neurodivergent kids, their families and their teachers. I have not done this yet.
 
-## 11. Use of artificial intelligence
+## Use of artificial intelligence
 
-I developed the code, the texts in both languages, the data retrieval and verification, and the balance simulations with assistance from generative AI (Claude, by Anthropic). I defined the concept, the human-centered neurodivergent approach and the design decisions, and I reviewed, tested and approved the result.
+I wrote the code and the text with help from Claude, Anthropic's AI assistant. I also used it for the translations, to download and cross-check the DONKI data and to run the balance simulations. The idea, the neurodivergent approach and the design decisions are mine. I tested the game and reviewed the result before publishing it.
 
-## 12. Credits
+## Credits
 
-**Irving Mellin Rubio**, electronic engineer, solo participant. NASA Space Apps Challenge 2026.
-Data: NASA DONKI (CCMC, NASA Goddard) and NASA OSDR. Educational resource: Canadian Space Agency (CSA).
+Irving Mellin Rubio, electronic engineer. Solo participant in the NASA Space Apps Challenge 2026.
 
-
-
-
+Data: NASA DONKI (CCMC, NASA Goddard Space Flight Center) and NASA OSDR. Educational material: Canadian Space Agency.

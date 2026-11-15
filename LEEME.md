@@ -1,133 +1,137 @@
-# 🌙 Outpost Neurodiverso
+# Outpost Neurodiverso
 
-*English version: [README.md](README.md)*
+English version: [README.md](README.md)
 
-**Un juego de navegador, en español e inglés, para niños de 7 a 12 años. Cuidas una base en la Luna repartiendo la energía del Sol, proteges a tu equipo de eventos solares reales registrados por la NASA y coleccionas sus cartas.**
+Juego de navegador, en español e inglés, para niños de 7 a 12 años. El jugador está a cargo de una base en la Luna durante diez días. Cada día reparte la energía del Sol entre cuatro módulos y protege a su tripulación de eventos solares que la NASA registró de verdad. Cada evento que sobrevive le deja una carta para su álbum.
 
-Lo hice para el **NASA Space Apps Challenge 2026**. Funciona en el navegador, en computador, tableta o celular. No hay que descargar nada, no hay que crear cuentas y no necesita instalar programas.
+Lo desarrollé para el NASA Space Apps Challenge 2026. Funciona en cualquier navegador moderno, en computadora, tableta o celular, sin instalar nada y sin crear cuentas.
 
----
+## El reto
 
-## 1. El reto
+El desafío pedía un juego para niños de 7 a 12 años sobre la gestión de un puesto avanzado en la Luna o en Marte. El jugador tenía que equilibrar oxígeno, blindaje contra la radiación, energía, alimentos y el retraso de las comunicaciones. Ninguna decisión podía ser gratuita y los datos tenían que salir de fuentes abiertas de la NASA.
 
-Diseñar un juego para niños de 7 a 12 años que gestione un puesto avanzado en la Luna o en Marte. El jugador debe equilibrar el soporte vital (oxígeno), el blindaje contra la radiación, la energía, la producción de alimentos y los retrasos en las comunicaciones. Ninguna decisión puede ser gratuita y la simulación debe basarse en datos abiertos reales de la NASA.
+Le agregué una condición propia. Muchos juegos educativos premian al que lee rápido, reacciona rápido y tolera bien las sorpresas. Quería que ninguna de esas cosas decidiera quién gana. Por eso el cansancio de la tripulación y el descanso forman parte de las reglas.
 
-## 2. Cómo se juega (en 30 segundos)
+## Cómo se juega
 
-1. Cada día el Sol te da **4 ☀️ de energía**.
-2. **Toca los módulos** de la base para darles energía: 🛡️ Escudo, 💨 Aire, 🌱 Invernadero, 🔬 Laboratorio. Cada toque cambia algo que ves al instante.
-3. Mira el **pronóstico del Sol**: cada 3 días llega un **evento real** (de 2024 a 2026, tomado de NASA DONKI). Una tormenta de partículas exige escudo 3 o 4.
-4. Pulsa **🌙 Terminar el día**: el equipo respira, come, descansa o se cansa, y si hubo evento ganas su **carta real** para el álbum.
-5. Gana hasta **3 estrellas**: aguantar todos los días, juntar 3 muestras de ciencia y bloquear todas las tormentas.
+1. Cada mañana el Sol entrega 4 unidades de energía.
+2. El jugador toca los módulos para dárselas: Escudo, Aire, Invernadero y Laboratorio. Cada toque se nota en el momento. El escudo crece, el tanque de aire se llena y la planta brota.
+3. El pronóstico avisa lo que viene. Cada tres días llega un evento real ocurrido entre 2024 y 2026, tomado del registro DONKI de la NASA. Una tormenta de partículas exige escudo 3 o 4.
+4. Con el botón «Terminar el día» la tripulación respira, come y descansa, o se cansa. Si hubo evento, el jugador recibe su carta.
+5. Hay tres estrellas posibles: terminar la misión, reunir 3 muestras científicas y bloquear todas las tormentas.
 
-## 3. Por qué engancha
+Ana, la comandante, sugiere un reparto que se aplica con un solo toque. Seguir sus sugerencias asegura la misión. Las tres estrellas sin ayuda exigen mirar el pronóstico y cuidar el descanso.
 
-| Lo que suele aburrir | Lo que hace este juego |
-|---|---|
-| Elegir de un menú y leer números | Tocar módulos y ver el cambio al instante: el escudo crece, el tanque se llena, la planta brota |
-| La recompensa llega al final | Recompensa cada noche: cosechas, muestras, una carta nueva |
-| Metas abstractas | 3 estrellas visibles desde el primer segundo |
-| Nada que coleccionar | Un álbum de cartas de eventos solares reales (20 históricos + los recientes en vivo) |
-| Mucho texto | Íconos, caras del equipo y un consejo corto de Ana que se aplica con un toque |
+## Cansancio, descanso y superpoderes
 
-## 4. Mi enfoque: pensado para cerebros diversos
+La tripulación tiene una energía mental que se ve en sus caras. Si en un día se usan entre 0 y 2 unidades, el equipo descansa y recupera un punto. Con 3 se mantiene, y con 4 se cansa y pierde uno. Si la energía llega a cero, al día siguiente solo pueden trabajar con 2 unidades. A veces descansar es la mejor jugada.
 
-Soy ingeniero con TDAH y hice este juego pensando en los niños que suelen quedar fuera: niños autistas, con TDAH y otras formas de procesar el mundo. Por eso la **carga mental es parte de las reglas**. La energía mental del equipo se ve en sus caras. Si en un día usas 0 a 2 ☀️, el equipo descansa (+1). Con 3 se queda igual y con 4 se cansa (−1). Si llega a 0, al día siguiente solo pueden trabajar con 2 ☀️. Descansar también es estrategia.
+Al empezar, el jugador elige un superpoder según cómo le gusta recibir la información. Ninguno es el modo «normal», y cada uno tiene su costo:
 
-**Superpoderes en lugar de "modos".** Al empezar, el jugador elige cómo prefiere procesar la información. Ninguno es el "normal": todos ayudan y todos cuestan.
-
-| Superpoder | Te ayuda | Cuesta |
+| Superpoder | Qué aporta | Qué cuesta |
 |---|---|---|
-| 👁️ Vista rápida | Todo con íconos y una leyenda visual | Ana no da consejos |
-| 👣 Planificador | Ves cómo quedará todo antes de terminar el día, y puedes deshacer | 1 ☀️ menos cada 2 días |
-| 📖 Narrador | Explicaciones y datos curiosos de la NASA cada día | La misión dura 12 días en vez de 10 |
-| 🔭 Pronóstico | Sabes qué evento viene y cuánto escudo necesitas | La antena gasta 1 ☀️ el día antes de cada evento |
+| Vista rápida | Todo se presenta con íconos y una leyenda visual | Ana no da sugerencias |
+| Planificador | Muestra cómo quedará la base antes de terminar el día y permite deshacer | Una unidad de energía menos cada dos días |
+| Narrador | Explicaciones y datos curiosos de la NASA cada día | La misión dura 12 días en lugar de 10 |
+| Pronóstico | Anuncia el próximo evento y el escudo que hará falta | La antena gasta una unidad el día anterior a cada evento |
 
-El **retraso de las comunicaciones** aparece con el Pronóstico: un destello solar corta la radio y al día siguiente no llega el aviso.
+El retraso de las comunicaciones se juega con el Pronóstico: un destello solar corta la radio y el aviso del día siguiente no llega.
 
-**No hay un modo "normal".** Ganar no depende de reaccionar rápido, leer rápido, adivinar reglas ocultas ni tolerar sorpresas:
-- No hay límite de tiempo y se juega a tu ritmo.
+Algunas decisiones de diseño:
+
+- No hay límite de tiempo.
 - Las reglas y los costos están siempre a la vista.
-- La noche resuelve todo sin azar, así que los resultados son predecibles.
-- La tripulación nunca culpa y el final nunca dice "perdiste".
-- El juego no nombra diagnósticos ni pide que el jugador se identifique.
+- La noche se resuelve sin azar, así que el mismo reparto da siempre el mismo resultado.
+- Nadie culpa al jugador y la pantalla final no dice «perdiste».
+- El juego no menciona diagnósticos ni pide al jugador que diga si es neurodivergente.
 
-El diseño sigue los tres principios del Diseño Universal para el Aprendizaje (CAST, UDL 3.0): varias formas de motivarse, de recibir la información y de actuar.
+Seguí los tres principios del Diseño Universal para el Aprendizaje (CAST, UDL 3.0): dar más de una forma de motivarse, de recibir la información y de actuar.
 
-**Accesibilidad:**
+## Accesibilidad
+
 - Letra de 18 px como mínimo y botones grandes.
-- Colores siempre acompañados de íconos o palabras.
-- Sin parpadeos.
-- Animaciones cortas que se apagan si el sistema pide reducir el movimiento.
-- Sonido opcional, apagado al inicio, con tonos suaves.
-- Se puede jugar con teclado, mouse o pantalla táctil.
-- El idioma se cambia en cualquier momento con 🌐.
+- Ningún dato depende solo del color: siempre va acompañado de un ícono o una palabra.
+- No hay parpadeos. Las animaciones son cortas y se desactivan si el sistema operativo pide reducir el movimiento.
+- El sonido es opcional, viene apagado y usa tonos suaves.
+- Se juega con teclado, mouse o pantalla táctil.
+- El idioma se cambia en cualquier momento.
 
-## 5. Datos reales que uso
+## Datos de la NASA
 
-**NASA DONKI (clima espacial).**
-- `data/donki-eventos.json` tiene 20 eventos reales de enero de 2024 a noviembre de 2026 (13 fulguraciones de clase X y 7 tormentas de partículas SEP), verificados el 14 de noviembre de 2026. Cada uno tiene `id_donki` (su identificador oficial), `pagina_donki` (su ficha oficial en la web de la NASA, legible y con gráfico), `verificar` (la consulta técnica en JSON) y descripciones en español e inglés. En el juego, cada carta tiene el enlace **🔎 Ver este evento en la web de la NASA**.
-- **En vivo:** al abrir el juego se consulta `https://ccmc.gsfc.nasa.gov/DONKI-API/get/` (FLR, SEP, CME). El servicio no pide clave. La pantalla de inicio muestra "El Sol esta semana" y los eventos fuertes del último mes entran a la misión como cartas 🆕. La fecha la toma el equipo donde se abre el juego. Sin internet, se juega con los eventos guardados.
-- **Intensidad (regla del juego):** una SEP que llevó partículas de más de 100 MeV exige escudo 4; las demás, escudo 3.
+**DONKI, base de datos de clima espacial (CCMC, NASA Goddard).** El archivo `data/donki-eventos.json` guarda 20 eventos ocurridos entre enero de 2024 y noviembre de 2026: 13 fulguraciones de clase X y 7 tormentas de partículas (SEP). Los verifiqué uno por uno el 14 de noviembre de 2026. Cada registro incluye:
 
-**NASA OSDR (invernadero):** OSD-268 (lechuga en Veggie, Estación Espacial) y OSD-772 (chiles durante 137 días en el Advanced Plant Habitat, 26 frutos).
+- su identificador oficial (`id_donki`);
+- el enlace a su ficha en la web de la NASA (`pagina_donki`);
+- la consulta técnica que lo devuelve (`verificar`);
+- una descripción en español y otra en inglés.
 
-**CSA:** el kit *Food production on the Moon and in remote areas* me sirvió de marco educativo para la producción de alimentos.
+Cada carta del juego tiene el enlace «Ver este evento en la web de la NASA».
 
-**Lo que no uso:** RadLab respondía con error 500 durante el desarrollo, así que el daño por radiación es una regla de juego. Los valores de energía mental, aire y comida son parámetros de diseño, no mediciones.
+Al abrir el juego también se consulta la API pública de DONKI (`https://ccmc.gsfc.nasa.gov/DONKI-API/get/`), que no pide clave. Con esa consulta la pantalla de inicio muestra cómo estuvo el Sol en la última semana. Los eventos fuertes del último mes entran a la misión como cartas nuevas. La fecha de referencia es la del equipo donde se abre el juego. Sin conexión, el juego usa los eventos guardados.
 
-## 6. Reglas exactas
+Para el juego definí una regla de intensidad. Una tormenta con partículas de más de 100 MeV exige escudo 4, y las demás, escudo 3.
 
-| Módulo | Cada ☀️ da | Cada noche |
+**OSDR, repositorio de biología espacial.** El invernadero se basa en dos estudios:
+
+- OSD-268: lechuga cultivada en el sistema Veggie de la Estación Espacial.
+- OSD-772: chiles cultivados durante 137 días en el Advanced Plant Habitat, con una cosecha de 26 frutos.
+
+**Agencia Espacial Canadiense.** El kit educativo *Food production on the Moon and in remote areas* me sirvió de marco para la parte de alimentos.
+
+Lo que no salió de mediciones: durante el desarrollo RadLab respondía con error 500, así que el daño por radiación es una regla del juego. Los valores de aire, comida y energía mental también son parámetros de diseño.
+
+## Reglas
+
+| Módulo | Cada unidad de energía | Cada noche |
 |---|---|---|
-| 🛡️ Escudo (0-5) | +1 nivel | −1 (desgaste) |
-| 💨 Aire (0-10) | +2 | −2 (respirar). Si llega a 0, la misión termina |
-| 🌱 Invernadero | 3 ☀️ = cosecha de 4 días de comida | −1 de comida. Sin comida, energía mental −2 |
-| 🔬 Laboratorio | 2 ☀️ = 1 muestra (meta: 3) | — |
+| Escudo (0 a 5) | sube un nivel | baja un nivel por desgaste |
+| Aire (0 a 10) | suma 2 | se consumen 2; si llega a 0, la misión termina |
+| Invernadero | cada 3 unidades, una cosecha de 4 días de comida | se consume 1 de comida; sin comida, la energía mental baja 2 |
+| Laboratorio | cada 2 unidades, una muestra (la meta es 3) | sin cambio |
 
-**Inicio:** aire 10, comida 7, escudo 3, energía mental 3.
-**Eventos (días 3, 6, 9 y 12):**
-- Tormenta (SEP) con escudo menor que el necesario: aire −3 y energía mental −1.
-- Destello (FLR): no hace daño y corta la radio un día.
+La misión empieza con aire 10, comida 7, escudo 3 y energía mental 3. Los eventos caen los días 3, 6, 9 y 12. Si llega una tormenta y el escudo no alcanza, se pierden 3 de aire y 1 de energía mental. Un destello no hace daño, pero deja sin radio un día. La misión termina antes de tiempo si el aire llega a cero o si la energía mental pasa tres días seguidos en cero.
 
-**Fin:** la misión termina antes de tiempo si el aire llega a 0 o si la energía mental se queda en 0 tres días seguidos.
+## Balance
 
-## 7. Equilibrio (4.000 partidas simuladas por estrategia y superpoder)
+Simulé 4000 partidas por cada estrategia y cada superpoder. Estos son los resultados con Vista rápida:
 
-| Estrategia (Vista rápida) | Sobrevive | ★★★ |
+| Estrategia | Termina la misión | Tres estrellas |
 |---|---|---|
-| Poner siempre toda la energía en un solo módulo | 0 % | 0 % |
-| Repartir siempre igual, sin mirar el pronóstico | ~94 % | ~33 % |
-| Al azar | ~44 % | ~16 % |
-| Niño que sigue a Ana 2 de cada 3 días y el resto juega al azar | ~79 % | ~72 % |
+| Toda la energía en un solo módulo | 0 % | 0 % |
+| Repartir siempre igual, sin mirar el pronóstico | 94 % | 33 % |
+| Al azar | 44 % | 16 % |
+| Seguir a Ana dos de cada tres días y el resto al azar | 79 % | 72 % |
 | Seguir siempre a Ana | 100 % | 100 % |
 
-Seguir a Ana da las 3 estrellas en los 4 superpoderes. Para conseguirlas sin ayuda hay que mirar el pronóstico y cuidar el descanso.
+Con los otros tres superpoderes, seguir siempre a Ana también da 100 % en ambas columnas.
 
-## 8. Cómo probarlo (jueces, 3 minutos)
+## Para probarlo en tres minutos
 
-1. Abre el enlace. Mira la tarjeta **El Sol esta semana** (datos en vivo) y cambia de idioma con 🌐.
-2. Elige **🔭 Pronóstico** y sigue el tutorial de 4 pasos.
-3. Toca módulos y observa el cambio inmediato. Usa **💡 Usar sugerencia** una vez.
-4. Termina el día 3: aparece una **carta real** con su fecha, su clase y el enlace a su ficha oficial en la web de la NASA.
-5. Termina la misión, revisa las estrellas y abre el **🎴 álbum**.
+1. Abre el juego y mira el recuadro «El Sol esta semana», que trae datos en vivo. Cambia de idioma.
+2. Elige el superpoder Pronóstico y sigue el tutorial de cuatro pasos.
+3. Reparte la energía tocando los módulos. Prueba una vez «Usar sugerencia».
+4. Al terminar el día 3 aparece la carta del evento, con su fecha, su clase y el enlace a la ficha de la NASA.
+5. Termina la misión, revisa las estrellas y abre el álbum.
 
-## 9. Ejecutar y publicar
+## Cómo ejecutarlo
 
-Doble clic en `index.html`, o publícalo con GitHub Pages (*Settings → Pages → Deploy from a branch → main / root*). Si el navegador bloquea el JSON, el juego usa su copia interna, que tiene los mismos datos.
+Basta con abrir `index.html` en el navegador. Para publicarlo uso GitHub Pages (Settings, Pages, Deploy from a branch, rama `main`, carpeta raíz). Si el navegador bloquea la lectura del JSON local, el juego usa una copia interna con los mismos datos.
 
-## 10. Trabajo futuro
+El proyecto está hecho con HTML, CSS y JavaScript, sin frameworks ni dependencias externas.
 
-- Integrar RadLab cuando su servidor esté disponible.
-- Modo Marte, con varios minutos de retraso en las comunicaciones.
+## Pendiente
+
+- Conectar RadLab cuando su servicio vuelva a responder.
+- Un modo Marte, con varios minutos de retraso en las comunicaciones.
 - Lectura en voz alta opcional.
-- Pruebas con niños neurodivergentes, sus familias y sus docentes.
+- Probarlo con niños neurodivergentes, sus familias y sus docentes. Todavía no lo he hecho.
 
-## 11. Uso de inteligencia artificial
+## Uso de inteligencia artificial
 
-El código, los textos en ambos idiomas, la descarga y verificación de datos y las simulaciones de equilibrio los hice con asistencia de IA generativa (Claude, de Anthropic). Yo definí el concepto, el enfoque humanista y neurodivergente y las decisiones de diseño, y revisé, probé y aprobé el resultado.
+Programé y redacté el juego con ayuda de Claude, el asistente de IA de Anthropic. También lo usé para las traducciones, para descargar y contrastar los datos de DONKI y para las simulaciones de balance. La idea, el enfoque neurodivergente y las decisiones de diseño son míos. Probé el juego y revisé el resultado antes de publicarlo.
 
-## 12. Créditos
+## Créditos
 
-**Irving Mellin Rubio**, ingeniero electrónico, participante individual. NASA Space Apps Challenge 2026.
-Datos: NASA DONKI (CCMC, NASA Goddard) y NASA OSDR. Recurso educativo: Agencia Espacial Canadiense (CSA).
+Irving Mellin Rubio, ingeniero electrónico. Participante individual del NASA Space Apps Challenge 2026.
+
+Datos: NASA DONKI (CCMC, NASA Goddard Space Flight Center) y NASA OSDR. Material educativo: Agencia Espacial Canadiense.
